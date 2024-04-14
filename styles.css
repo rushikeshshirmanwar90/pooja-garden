@@ -100,13 +100,6 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-.hero {
-  background-image: url("assets/header.jpg");
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
 header {
   position: sticky;
   top: 0;
@@ -119,7 +112,7 @@ nav {
   position: fixed;
   isolation: isolate;
   top: 0;
-  width: 100%;
+  width: 100vw;
   height: 6rem;
   max-width: var(--max-width);
   margin: auto;
@@ -138,7 +131,6 @@ nav {
   justify-content: space-between;
   gap: 2rem;
   background-color: var(--cream-color);
-  
 }
 
 .nav__menu__btn {
@@ -618,6 +610,10 @@ nav {
   .footer__container {
     grid-template-columns: repeat(4, 1fr);
   }
+}
+
+.hero {
+  margin-top: 6rem;
 }
 
 @media (width > 1024px) {
