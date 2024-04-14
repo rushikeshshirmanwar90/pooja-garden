@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <!--=================================
+      Font awesome Link
+     ===================================-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <style>
+      .service_img {
+        width: 40px;
+      }
+    </style>
+
+    <link rel="stylesheet" href="styles.css" />
+    <title>Hotel Pooja Garden</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <nav>
+        <div class="nav__bar">
+          <div class="logo">
+            <a href="#"><img src="assets/logo2.png" id="logo" alt="logo" /></a>
+          </div>
+          <div class="nav__menu__btn" id="menu-btn">
+            <i class="ri-menu-line"></i>
+          </div>
+        </div>
+        <ul class="nav__links" id="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="components/menu.html">Our Menus</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#service">Services</a></li>
+          <li><a href="#rooms">Our Rooms</a></li>
+          <li><a href="#ams">Amenities</a></li>
+          <button class="btn">Book Now</button>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <div class="section__container header__container" id="home">
+        <p>Simple - Unique - Friendly</p>
+        <h1>Make Yourself At Home<br />In Our <span>Hotel</span>.</h1>
+      </div>
+    </section>
+
+    <section class="section__container about__container" id="about">
+      <div class="about__image">
+        <img src="assets/about.jpg" alt="about" />
+      </div>
+      <div class="about__content">
+        <p class="section__subheader">ABOUT US</p>
+        <h2 class="section__header">The Best Holidays Start Here!</h2>
+        <p class="section__description">
+          » Hotel Pooja Garden was started in the year of 2006 and the founder
+          is Mr. Rohit Shastri Adkatalwar, his big dream to open a spacious
+          restaurant with good environment and garden lush greenery for
+          specially families and commercially sectors to provided multi cuisine
+          dishes. liquors lodging an banquet hall, conference hall in one roof.
+          <br />
+          <br />
+          » Hotel Pooja Garden is an Elegant art Hotel that provides an
+          Unforgettable experience embedded in historical, cultural and business
+          surroundings located in spectacular landscape of the city, on latur
+          phata road, vasarni, nanded.
+          <br />
+          <br />
+          » Hotel combines comfort luxury and extraordinary service peaceful
+          atmosphere of state of art rooms overlooking the amazing building
+          architecture traditional veg, and non veg cuisine & alcoholic
+          beverages are at your disposal for both of your business and leisure
+          stay Well furnished and luxurious rooms with good spacious great
+          environment with all the facilities available with complementary
+          buffet Breakfast for all rooms. » Fine Dine with wine offers multi
+          cuisine dishes in veg & Non Veg both are available.
+        </p>
+        <div class="about__btn">
+          <button class="btn">Read More</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container room__container" id="about_hotel">
+      <p class="section__subheader">Hotel Pooja garden</p>
+      <h2 class="section__header">Out Hotel Has</h2>
+      <div class="room__grid">
+        <div class="room__card">
+          <div class="room__card__image">
+            <img src="assets/garden.jpg" alt="room" />
+          </div>
+          <div class="room__card__details">
+            <h4>Beautiful Garden</h4>
+            <p>
+              here We Have the Beautiful Garden Here We can enjoy and spend
+              quality time with Family
+            </p>
+            <a href="tel:+919689433999">
+              <button class="btn">Book Now</button>
+            </a>
+          </div>
+        </div>
+        <div class="room__card">
+          <div class="room__card__image">
+            <img src="assets/rooms.jpg" alt="room" />
+          </div>
+          <div class="room__card__details">
+            <h4>All types of rooms</h4>
+            <p>
+              here We Have the Beautiful Garden Here We can enjoy and spend
+              quality time with Family
+            </p>
+            <a href="#rooms">
+              <button class="btn">See Rooms</button>
+            </a>
+          </div>
+        </div>
+        <div class="room__card">
+          <div class="room__card__image">
+            <img src="assets/restro.jpg" alt="room" style="height: 276px" />
+          </div>
+          <div class="room__card__details">
+            <h4>Dinning Restaurant</h4>
+            <p>
+              Hotel Pooja garden as the Dinning Restaurant where you can come
+              and have a lunch, dinner with our family
+            </p>
+            <a href="tel:+919689433999">
+              <button class="btn">Book Now</button>
+            </a>
+          </div>
+        </div>
+        <div class="room__card">
+          <div class="room__card__image">
+            <img src="assets/bar.avif" alt="room" style="height: 276px" />
+          </div>
+          <div class="room__card__details">
+            <h4>Bar</h4>
+            <p>
+              Hotel Pooja Garden has a bar where you can come at weekends or any
+              special occasions and enjoy
+            </p>
+            <a href="tel:+919689433999">
+              <button class="btn">Book Now</button>
+            </a>
+          </div>
+        </div>
+        <div class="room__card">
+          <div class="room__card__image">
+            <img src="assets/roof top.webp" alt="room" style="height: 276px" />
+          </div>
+          <div class="room__card__details">
+            <h4>Roof Top Dinning</h4>
+            <p>
+              we have the roof top dinning where you can enjoy the nature as
+              well as food with hotel pooja garden
+            </p>
+            <a href="tel:+919689433999">
+              <button class="btn">Book Now</button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container room__container" id="ams">
+      <p class="section__subheader">Amenities</p>
+      <h2 class="section__header">Amenities to make you comfortable</h2>
+      <div class="box">
+        <div class="items">
+          <div class="icons">
+            <img src="assets/Amenities/wifi.png" alt="WiFi Icon" />
+            <div class="text">Free Wifi</div>
+          </div>
+        </div>
+        <div class="items">
+          <div class="icons">
+            <img src="assets/Amenities/parking.png" alt="parking Icon" />
+            <div class="text">Free Parking</div>
+          </div>
+        </div>
+        <div class="items">
+          <div class="icons">
+            <img src="assets/Amenities/room.png" alt="room Icon" />
+            <div class="text">Room Service</div>
+          </div>
+        </div>
+        <div class="items">
+          <div class="icons">
+            <img src="assets/Amenities/family.png" alt="family Icon" />
+            <div class="text">Family Section</div>
+          </div>
+        </div>
+        <div class="items">
+          <div class="icons">
+            <img src="assets/Amenities/beer.png" alt="bar Icon" />
+            <div class="text">Separate Bar Section</div>
+          </div>
+        </div>
+        <div class="items">
+          <div class="icons">
+            <img src="assets/Amenities/sports.png" alt="family Icon" />
+            <div class="text">children's play area</div>
+          </div>
+        </div>
+        <div class="items">
+          <div class="icons">
+            <img src="assets/Amenities/gardening.png" alt="family Icon" />
+            <div class="text">Garden</div>
+          </div>
+        </div>
+        <div class="items">
+          <div class="icons">
+            <img src="assets/Amenities/mattress.png" alt="family Icon" />
+            <div class="text">Room Services</div>
+          </div>
+        </div>
+        <div class="items">
+          <div class="icons">
+            <img src="assets/Amenities/theater.png" alt="family Icon" />
+            <div class="text">200+ Banquet Hall</div>
+          </div>
+        </div>
+        <div class="items">
+          <div class="icons">
+            <img src="assets/Amenities/cash-register.png" alt="family Icon" />
+            <div class="text">Cocktail Counters</div>
+          </div>
+        </div>
+        <div class="items">
+          <div class="icons">
+            <img src="assets/Amenities/steward.png" alt="family Icon" />
+            <div class="text">Most Experience Staff</div>
+          </div>
+        </div>
+        <div class="items">
+          <div class="icons">
+            <img src="assets/Amenities/dinning-hall.png" alt="family Icon" />
+            <div class="text">1500+ Dinning Capacity</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="service" id="service">
+      <div class="section__container service__container">
+        <div class="service__content">
+          <p class="section__subheader">SERVICES</p>
+          <h2 class="section__header">Find the best services and food</h2>
+          <ul class="service__list">
+            <li>
+              <span><img class="service_img" src="assets/icons/catering.png" alt=""></i></span>
+              catering  services
+            </li>
+            <li>
+              <span><img class="service_img" src="assets/icons/party-popper.png" alt=""></span>
+              party arrangements
+            </li>
+            <li>
+              <span><img class="service_img" src="assets/icons/conference-room.png" alt=""></span>
+              Conference halls
+            </li>
+            <li>
+              <span><img class="service_img" src="assets/icons/bed.png" alt=""></span>
+              Executive rooms
+            </li>
+            <li>
+              <span><img class="service_img" src="assets/icons/lounge.png" alt=""></i></span>
+              Executive restaurant and bars
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container banner__container">
+      <div class="banner__content">
+        <div class="banner__card">
+          <h4>1000+</h4>
+          <p>parties done</p>
+        </div>
+        <div class="banner__card">
+          <h4>50K+</h4>
+          <p>Bookings Completed</p>
+        </div>
+        <div class="banner__card">
+          <h4>10K+</h4>
+          <p>Happy guests</p>
+        </div>
+        <div class="banner__card">
+          <h4>200K+</h4>
+          <p>quizzing</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container room__container" id="rooms">
+      <p class="section__subheader">OUR LIVING ROOM</p>
+      <h2 class="section__header">choose your path.</h2>
+      <div class="room__grid">
+        <div class="room__card">
+          <div class="room__card__image">
+            <img src="assets/room-1.jpg" alt="room" />
+            <div class="room__card__icons">
+              <span><i class="ri-heart-fill"></i></span>
+              <span><i class="ri-paint-fill"></i></span>
+              <span><i class="ri-shield-star-line"></i></span>
+            </div>
+          </div>
+          <div class="room__card__details">
+            <h4>Deluxe Ocean View</h4>
+            <p>
+              Bask in luxury with breathtaking ocean views from your private
+              suite.
+            </p>
+            <a href="tel:+919689433999">
+              <button class="btn">book now</button>
+            </a>
+          </div>
+        </div>
+        <div class="room__card">
+          <div class="room__card__image">
+            <img src="assets/room-1.jpg" alt="room" />
+            <div class="room__card__icons">
+              <span><i class="ri-heart-fill"></i></span>
+              <span><i class="ri-paint-fill"></i></span>
+              <span><i class="ri-shield-star-line"></i></span>
+            </div>
+          </div>
+          <div class="room__card__details">
+            <h4>Deluxe Ocean View</h4>
+            <p>
+              Bask in luxury with breathtaking ocean views from your private
+              suite.
+            </p>
+            <a href="tel:+919689433999">
+              <button class="btn">book now</button>
+            </a>
+          </div>
+        </div>
+        <div class="room__card">
+          <div class="room__card__image">
+            <img src="assets/room-2.jpg" alt="room" />
+            <div class="room__card__icons">
+              <span><i class="ri-heart-fill"></i></span>
+              <span><i class="ri-paint-fill"></i></span>
+              <span><i class="ri-shield-star-line"></i></span>
+            </div>
+          </div>
+          <div class="room__card__details">
+            <h4>Executive Cityscape Room</h4>
+            <p>
+              Experience urban elegance and modern comfort in the heart of the
+              city.
+            </p>
+            <a href="tel:+919689433999">
+              <button class="btn">book now</button>
+            </a>
+          </div>
+        </div>
+        <div class="room__card">
+          <div class="room__card__image">
+            <img src="assets/room-3.jpg" alt="room" />
+            <div class="room__card__icons">
+              <span><i class="ri-heart-fill"></i></span>
+              <span><i class="ri-paint-fill"></i></span>
+              <span><i class="ri-shield-star-line"></i></span>
+            </div>
+          </div>
+          <div class="room__card__details">
+            <h4>Family Garden Retreat</h4>
+            <p>
+              Spacious and inviting, perfect for creating cherished memories
+              with loved ones.
+            </p>
+            <a href="tel:+919689433999">
+              <button class="btn">Book Now</button>
+            </a>
+          </div>
+        </div>
+        <div class="room__card">
+          <div class="room__card__image">
+            <img src="assets/menu images/home.jpg" style=" overflow: hidden; "  alt="room" />
+            <div class="room__card__icons">
+            </div>
+          </div>
+          <div class="room__card__details">
+            <h4>Our Menu</h4>
+            
+            <a href="assets/Pooja Food Menu.pdf" target="_blank">
+              <button class="btn">See Menu</button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container">
+      <p class="section__subheader">What people think about us</p>
+      <h2 class="section__header">Testimonials</h2>
+
+      <div class="testimonialContainer">
+        <div class="testimonial mySwiper">
+          <div class="testi-content swiper-wrapper">
+            <div class="slide swiper-slide">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Aperiam, saepe provident dolorem a quaerat quo error facere
+                nihil deleniti eligendi ipsum adipisci, fugit, architecto amet
+                asperiores doloremque deserunt eum nemo.
+              </p>
+
+              <i class="bx bxs-quote-alt-left quote-icon"></i>
+
+              <div class="details">
+                <span class="name">Rushikesh shrimanwar</span>
+              </div>
+            </div>
+            <div class="slide swiper-slide">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Aperiam, saepe provident dolorem a quaerat quo error facere
+                nihil deleniti eligendi ipsum adipisci, fugit, architecto amet
+                asperiores doloremque deserunt eum nemo.
+              </p>
+
+              <i class="bx bxs-quote-alt-left quote-icon"></i>
+
+              <div class="details">
+                <span class="name">Rushikesh shrimanwar</span>
+              </div>
+            </div>
+            <div class="slide swiper-slide">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Aperiam, saepe provident dolorem a quaerat quo error facere
+                nihil deleniti eligendi ipsum adipisci, fugit, architecto amet
+                asperiores doloremque deserunt eum nemo.
+              </p>
+
+              <i class="bx bxs-quote-alt-left quote-icon"></i>
+
+              <div class="details">
+                <span class="name">Rushikesh shrimanwar</span>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-next nav-btn"></div>
+          <div class="swiper-button-prev nav-btn"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container room__container" id="rooms">
+      <p class="section__subheader">know more about us</p>
+      <h2 class="section__header">Regarding to us</h2>
+      <div class="room__grid">
+        <div class="room__card">
+          <div class="room__card__image">
+            <img src="assets/room-1.jpg" alt="room" />
+            <div class="room__card__icons">
+              <span><i class="ri-heart-fill"></i></span>
+              <span><i class="ri-paint-fill"></i></span>
+              <span><i class="ri-shield-star-line"></i></span>
+            </div>
+          </div>
+          <div class="room__card__details">
+            <h4>regarding rooms</h4>
+            <p>
+              Indulge in Exquisite Comfort and Serenity with Our Luxurious
+              Ocean-View Suites.
+            </p>
+            <a href="tel:+919689433999">
+              <button class="btn">Know more</button>
+            </a>
+          </div>
+        </div>
+        <div class="room__card">
+          <div class="room__card__image">
+            <img src="assets/Banquet hall.avif" alt="room" />
+            <div class="room__card__icons">
+              <span><i class="ri-heart-fill"></i></span>
+              <span><i class="ri-paint-fill"></i></span>
+              <span><i class="ri-shield-star-line"></i></span>
+            </div>
+          </div>
+          <div class="room__card__details">
+            <h4>regarding banquet halls</h4>
+            <p>
+              Host Unforgettable Events with Our Elegant Banquet Facilities.
+            </p>
+            <a href="tel:+919689433999">
+              <button class="btn">Know more</button>
+            </a>
+          </div>
+        </div>
+        <div class="room__card">
+          <div class="room__card__image">
+            <img src="assets/restro.jpg" alt="room" />
+            <div class="room__card__icons">
+              <span><i class="ri-heart-fill"></i></span>
+              <span><i class="ri-paint-fill"></i></span>
+              <span><i class="ri-shield-star-line"></i></span>
+            </div>
+          </div>
+          <div class="room__card__details">
+            <h4>regarding restaurant</h4>
+            <p>
+              Experience the fusion of urban elegance and modern comfort at our
+              city-center restaurant.
+            </p>
+            <a href="tel:+919689433999">
+              <button class="btn">know more</button>
+            </a>
+          </div>
+        </div>
+        <div class="room__card">
+          <div class="room__card__image">
+            <img src="assets/bar.jpeg" alt="room" />
+            <div class="room__card__icons">
+              <span><i class="ri-heart-fill"></i></span>
+              <span><i class="ri-paint-fill"></i></span>
+              <span><i class="ri-shield-star-line"></i></span>
+            </div>
+          </div>
+          <div class="room__card__details">
+            <h4>regarding bar</h4>
+            <p>
+              Unwind in style at our chic bar, where sophistication meets
+              relaxation in the heart of the city.
+            </p>
+            <a href="tel:+919689433999">
+              <button class="btn">Know more</button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer" id="contact">
+      <div class="section__container footer__container">
+        <div class="footer__col">
+          <div class="logo">
+            <a href="#home"><img src="assets/logo2.png" alt="logo" /></a>
+          </div>
+          <p class="section__description">
+            Discover a world of comfort, luxury, and adventure as you explore
+            our curated selection of hotels, making every moment of your getaway
+            truly extraordinary.
+          </p>
+          <a href="tel:+919689433999">
+            <button class="btn">Book Now</button>
+          </a>
+        </div>
+        <div class="footer__col">
+          <h4>QUICK LINKS</h4>
+          <ul class="footer__links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Our Rooms</a></li>
+            <li><a href="#">Amenities</a></li>
+            <li><a href="#">Our Menus</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Our Amenities</h4>
+          <ul class="footer__links">
+            <li><a href="#">Free wifi</a></li>
+            <li><a href="#">Free parking</a></li>
+            <li><a href="#">Room services</a></li>
+            <li><a href="#">Fitness center</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>CONTACT US</h4>
+          <ul class="footer__links">
+            <li><a href="#">hotelpoojagarden@gmail.com</a></li>
+          </ul>
+          <div class="footer__socials">
+            <a href="#"><img src="assets/facebook.png" alt="facebook" /></a>
+            <a href="#"><img src="assets/instagram.png" alt="instagram" /></a>
+            <a href="#"><img src="assets/youtube.png" alt="youtube" /></a>
+            <a href="#"><img src="assets/twitter.png" alt="twitter" /></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bar">
+        Copyright © 2024 Hotel Pooja Garden. All rights reserved.
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--========================= 
+        jQuery
+     ===========================-->
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="main.js"></script>
+  </body>
+</html>
