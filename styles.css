@@ -537,6 +537,10 @@ nav {
   text-align: center;
 }
 
+.hero {
+  margin-top: 0rem;
+}
+
 @media (width > 576px) {
   .room__grid {
     grid-template-columns: repeat(2, 1fr);
@@ -610,10 +614,6 @@ nav {
   .footer__container {
     grid-template-columns: repeat(4, 1fr);
   }
-}
-
-.hero {
-  margin-top: 6rem;
 }
 
 @media (width > 1024px) {
@@ -733,5 +733,11 @@ nav {
   }
   .nav-btn {
     display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hero {
+    margin-top: 6rem;
   }
 }
