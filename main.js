@@ -53,12 +53,12 @@ ScrollReveal().reveal(".about__content .section__header", {
 
 ScrollReveal().reveal(".about__content .section__description", {
   ...scrollRevealOption,
-  delay: 1500,
+  delay: 1000,
 });
 
 ScrollReveal().reveal(".about__btn", {
   ...scrollRevealOption,
-  delay: 2000,
+  delay: 1000,
 });
 
 // room container
@@ -77,7 +77,7 @@ ScrollReveal().reveal(".service__list li", {
 // service container
 ScrollReveal().reveal(".icons", {
   ...scrollRevealOption,
-  interval: 500,
+  interval: 200,
   origin: "right",
 });
 
