@@ -53,7 +53,7 @@ ScrollReveal().reveal(".about__content .section__header", {
 
 ScrollReveal().reveal(".about__content .section__description", {
   ...scrollRevealOption,
-  delay: 1000,
+  delay: 500,
 });
 
 ScrollReveal().reveal(".about__btn", {
